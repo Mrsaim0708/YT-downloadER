@@ -1,0 +1,39 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin-top: 50px;
+    text-align: center;
+}
+
+h1 {
+    color: #343a40;
+}
+
+.video-card {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+.video-card:hover {
+    transform: scale(1.02);
+}
+
+.video-image {
+    width: 100%;
+    height: auto;
+}
+
+.video-title {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.video-channel {
+    color: #6c757d;
+}
